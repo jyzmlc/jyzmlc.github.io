@@ -1,0 +1,6 @@
+http://example.com/2022/07/23/test-page/
+http://example.com/2022/07/23/hello-world/
+http://example.com/
+http://example.com/tags/hexo/
+http://example.com/tags/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/
+http://example.com/tags/next/
