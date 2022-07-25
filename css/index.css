@@ -1387,27 +1387,6 @@ body {
 input::placeholder {
   color: var(--font-color);
 }
-#web_bg {
-  position: fixed;
-  z-index: -999;
-  width: 100%;
-  height: 100%;
-  background: -webkit-linear-gradient(left bottom, #009fff, #ec2f4b);
-  background: -moz-linear-gradient(left bottom, #009fff, #ec2f4b);
-  background: -o-linear-gradient(left bottom, #009fff, #ec2f4b);
-  background: -ms-linear-gradient(left bottom, #009fff, #ec2f4b);
-  background: linear-gradient(to right top, #009fff, #ec2f4b);
-  background-attachment: local;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-animation: bganimation 10s infinite;
-  -moz-animation: bganimation 10s infinite;
-  -o-animation: bganimation 10s infinite;
-  -ms-animation: bganimation 10s infinite;
-  animation: bganimation 10s infinite;
-  background-size: 800%;
-}
 h1,
 h2,
 h3,
@@ -3577,12 +3556,10 @@ h1.page-title + .tag-cloud-list {
   background: var(--text-bg-hover);
 }
 #nav .menus_items .menus_item .menus_item_child li:first-child {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 #nav .menus_items .menus_item .menus_item_child li:last-child {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 0 0 5px 5px;
 }
 #nav .menus_items .menus_item .menus_item_child li a {
   display: inline-block;
